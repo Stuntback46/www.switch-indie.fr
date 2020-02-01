@@ -1,28 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/posts/my-first-post/</loc>
-    <lastmod>2020-01-25T13:37:01+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/posts/</loc>
-    <lastmod>2020-01-25T13:37:01+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/</loc>
-    <lastmod>2020-01-25T13:37:01+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/tags/</loc>
+    <loc>http://switch-indie.fr/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
