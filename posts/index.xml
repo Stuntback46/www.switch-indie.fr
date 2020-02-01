@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SwitchIndie</title>
+    <link>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/posts/</link>
+    <description>Recent content in Posts on SwitchIndie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2020 13:37:01 +0100</lastBuildDate>
+    
+	<atom:link href="http://storage.googleapis.com/staging.new-test-95a88.appspot.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bienvenue sur SwitchIndie</title>
+      <link>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/posts/my-first-post/</link>
+      <pubDate>Sat, 25 Jan 2020 13:37:01 +0100</pubDate>
+      
+      <guid>http://storage.googleapis.com/staging.new-test-95a88.appspot.com/posts/my-first-post/</guid>
+      <description>Bienvenue sur Switch Indie, le site de la Nintendo Switch et des indie games</description>
+    </item>
+    
+  </channel>
+</rss>
