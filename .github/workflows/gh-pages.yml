@@ -23,7 +23,7 @@ jobs:
     - uses: actions-hub/gcloud@master
       env:
         PROJECT_ID: new-test-95a88
-        APPLICATION_CREDENTIALS: ${{ 577716457143-itsh62ajjcd2ui3od016hjoafh9ls67u.apps.googleusercontent.com }} 
+        APPLICATION_CREDENTIALS: ${{ "577716457143-itsh62ajjcd2ui3od016hjoafh9ls67u.apps.googleusercontent.com" }} 
         CLI: gsutil
       with:
         args: cp -r ./ gs://test-bucket-deploy46/ 
