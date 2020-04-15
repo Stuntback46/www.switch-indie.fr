@@ -23,7 +23,17 @@ jobs:
     - uses: actions-hub/gcloud@master
       env:
         PROJECT_ID: new-test-95a88
-        APPLICATION_CREDENTIALS: ${{ "577716457143-itsh62ajjcd2ui3od016hjoafh9ls67u.apps.googleusercontent.com" }} 
+        APPLICATION_CREDENTIALS: ${{
+        "type": "service_account",
+        "project_id": "new-test-95a88",
+        "private_key_id": "d7010157ccea85ecd031654b7ae72088ab81eebe",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCyI6Tk/ev91fXg\nRLmgU9A4UaoVQbguN9fM6m2FRnFtuyeAydCoAPcoQaxkHDM4EFEMoVUnG/dWsOJ1\nt9dygsRvWq2V2gvxf7xHFzwna7srJQzbPQ8POuFBljWBhXvDg2N3Qm5GAzhMCSZZ\n55/Bo2MTmcVIFwcEYCKIMyZXIUX2tN+OzWD5Cih5U6ghdbGjDP0K7nW0vbNla483\n9DAQkfF2uBdzQ4czoqOFz9OkfehJ7AiKAct1GgxdU52C+WkJBubKIbTVxsxmIEeV\ncRf+VvEXwL9ZkIb5UsZij2xkNeJRYrMbk8hfvaroy3jFB1v0/49f/P1jF5fBJvwm\nd7EwBJDrAgMBAAECggEAMgreVy/X3Dp/dG2KAfaZj0CtuYP5RA6O8nNGqgJ0eeFy\nAvVuxstioy3zyjm7z7uRsS0fOTnbfUB6lZw8C2Cd4zRDgE29Pi3mi8gEr4RNk5y4\nZFxePyaIwf568HQ5pN5jkkyYotVjusR1QBtX3zNRcV+osow5feqtuLo5wo9H0rpb\nWHiiqeKIXlhHg8Ug5kZ42nUaJGfIW1kPajRRdj2uVf1vnkIFMAomddaMIgJCQr9j\n5oTKMyOlRW2KAZQEQSH6gP7S4/uDxfuXRWISTCWh+/Tf/AhGRw9voPb6Fet+37yc\nM3j45n6gvDNRCUQeeZRkbCRXRIJvu7lDuBWUtUUF1QKBgQDslEzjboFGbubxfpld\n+ezV+IDEgIsFdrcL4J1GW4FWEf1+KRambiyyu3/+XjELBCfgN2JFyq4oLfMhHfZA\nzY7ubkww9j/fXNNLG6PwagX0eRjqCwRkRL7azVRt+Xcy5GScM6yhkfF6cZQaW+Cu\nkr+ocdpkwrn4rThpyGMpWOlIVwKBgQDAwzq4OjWIQAwzNFOzJfs5z2K4PWIiSBhj\nyWu0qJGzcmopxmiYIVWBxaWGE8jU4z1Ph4sXrWKo259C7ho8KccxTrXDr7c1NfkH\n1izaoB2ltioFR96NxSLFkVet6i8eLTzixHv1eBJ9h7pWdLQ96SUZlgdZs3DQY92P\nRM2xpeZvjQKBgQCBwLSK6EiuwJSZTr3+9NwYXrsBCx80V+/866xWskk1U5icYRyz\nGyoYvQ1uDWsIh7b3Gmkjrg3mq4z1VOGCmTsTOhs/n09Yyih4wSgg64VomCI5+uDl\nvW6Pwp3T00a0+t7TbOP5mXm/lhuMeWe5V3MWh5soOESXRynxmp4IR2Nq8QKBgQCo\nMPBoVKnm43OBrhOmCerlqzVI6o5YuS1GzDXFIRxYRemp36vdqaAxJiJiFZszXb9e\nSDcuBqRCD7crsBOGETHzrOjeANDLhfdvRgpHDFQyBfsuNmJSswK+/i1R2zcXjoNE\nngpGyWjgzO/ihdvK9UXgyE5Lj01NFwX3/yG28rlY9QKBgGszfMM29dPAqvWh+Ta6\nr2ZoMaw+tgT02lrNehYFA3QqrfXmXs6JIu56F3KEmPUZd9/Rz1njNzDlfJiud3PV\nh5cBhKYP34hY91X4WNhurxopSA1DgSw1uDN2kO8KAMwUEdzV4hFAeD9Hgwt9PHoc\n1PNo2qZqyzBGPd6oFH/dRgrh\n-----END PRIVATE KEY-----\n",
+        "client_email": "romain@new-test-95a88.iam.gserviceaccount.com",
+        "client_id": "111875219085488079681",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/romain%40new-test-95a88.iam.gserviceaccount.com"}} 
         CLI: gsutil
       with:
         args: cp -r ./ gs://test-bucket-deploy46/ 
