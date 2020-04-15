@@ -1,0 +1,29 @@
+name: github pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1.2.0
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.2
+      with:
+        hugo-version: '0.58.3'
+        extended: true
+
+    - name: Build
+      run: hugo --gc --minify --cleanDestinationDir -e production
+    
+    - uses: actions-hub/gcloud@master
+      env:
+        PROJECT_ID: new-test-95a88
+        APPLICATION_CREDENTIALS: ${{ 577716457143-itsh62ajjcd2ui3od016hjoafh9ls67u.apps.googleusercontent.com }} 
+        CLI: gsutil
+      with:
+        args: cp -r ./ gs://test-bucket-deploy46/ 
